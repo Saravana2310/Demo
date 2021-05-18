@@ -6,18 +6,25 @@ public class Sample {
 	{
 		System.out.println("Sathya eat " +name);
 	}
-	public void sleep()
+	public void sleep(String name)
 	{
-		System.out.println("Sathya sleep with desi girls");
+		System.out.println("Sathya sleep with" +name);
 	}
 	public static void main(String[] args) {
 		
 		Sample s = new Sample();
+
+		s.eat("manusan pee");
+		s.eat("Maatu pee");
+		s.eat("Naai pee");
+		s.eat("Kalutha pee");
+		s.sleep("Desi girls");
+
 		s.eat("manusan");
 		s.eat("Maatu");
 		s.eat("Naai");
 		s.eat("Kalutha");
-		s.sleep();
+		s.sleep("Desi girls");
 		
 	}
 }
