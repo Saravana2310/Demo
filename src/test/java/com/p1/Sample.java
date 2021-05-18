@@ -13,10 +13,17 @@ public class Sample {
 	public static void main(String[] args) {
 		
 		Sample s = new Sample();
+
 		s.eat("manusan pee");
 		s.eat("Maatu pee");
 		s.eat("Naai pee");
 		s.eat("Kalutha pee");
+		s.sleep("Desi girls");
+
+		s.eat("manusan");
+		s.eat("Maatu");
+		s.eat("Naai");
+		s.eat("Kalutha");
 		s.sleep("Desi girls");
 		
 	}
